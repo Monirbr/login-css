@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5fd;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  background: url(./img/logo.jpg);
+  width: 100px;
+  height:100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  margin: 35px auto;
+  margin-top: 75px;
+  box-shadow:4px 4px 5px #9f9fa0 , -1px -1px 4px rgb(226, 224, 224),2px 2px 8px 3px #ffffffff;
+  
+}
+.login-form{
+  width: 400px;
+  height: 800px;
+  background-color: #e5e6e7;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 12px 12px 8px #9f9fa0 , -12px -12px 7px #ffffffff , 0px 0px 9px #ffffffff ;
+  
+  }
+.title{
+  font-size: 30px;
+    font-weight: 790;
+    color: #5f5f5f;
+    text-align: center;
+    text-shadow:0px 0px 2px #818181;
+  }
+  .svg-icon{
+    height: 25px;
+    margin:0px 2px -7px 0  ;
+    margin-left: 20px;
+  }
+.forms{
+ width: 100%;
+ padding: 40px 5px 5px 5px;
+  }
+.username ,.password{
+    width: 80%;
+    border-radius: 25px;
+    justify-content: center;
+    margin: 20px auto;
+    box-shadow:inset 5px 5px 10px #9f9fa0 ,inset -5px -5px 10px #ffffffff;
+  }
+.user, .pass{
+ margin:15px;
+ border-radius:8px;
+ text-align:left;
+  }
+.forms input{
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+}
+.login{
+width: 75%;
+height: 45px;
+justify-content: center;
+cursor: pointer;
+border-radius: 50px;
+background: rgb(148, 148, 247);
+color: #ffffffff;
+border: none;
+box-shadow:inset 8px 8px 30px #4e4e62 , inset -8px -8px 20px rgb(214, 198, 252);
+font-size: 22px;
+font-weight: 700;
+padding: 5px 0;
+  }
+ .login:hover{
+   background: #57c6e7;
+   transition: 0.5ms;
+ }
+ .forget{
+   padding-top: 30px;
+   text-align: center;
+   font-size: 16px;
+ }
+ .forget a{
+   text-decoration: none;
+   color: #3b3b3b;
+   font-size: 16px;
+ }
+ .forget a:hover{
+   color: rgb(65, 121, 253);
+ }
